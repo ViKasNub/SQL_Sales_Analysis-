@@ -19,7 +19,7 @@ Analysis of customer behavior, retention, and lifetime value for an e-commerce c
 
 **📈 Visualization:**
 
-<img src="images/cohort_analysis.png" width="50%">
+<img src="customer_segementation.png" width="50%">
 
 📊 **Key Findings:**
 - High-value segment (25% of customers) drives 66% of revenue ($135.4M)
@@ -36,15 +36,15 @@ Analysis of customer behavior, retention, and lifetime value for an e-commerce c
 - Cohorts were grouped by year of first purchase
 - Analyzed customer retention at a cohort level
 
-🖥️ Query: [2_cohort_analysis.sql](/2_cohort_analysis.sql)
+🖥️ Query: [2_cohort_analysis.sql](2_cohort_analysis.sql)
 
 **📈 Visualization:**
 
-<img src="images/2_cohort_analysis.png" alt="Cohort Analysis" style="width: 50%; height: auto;">
+<img src="cohort_analysis.png" alt="Cohort Analysis" style="width: 50%; height: auto;">
 
 📊 **Key Findings:**
-- Revenue per customer shows an alarming decreasing trend over time
-  - 2022-2024 cohorts are consistently performing worse than earlier cohorts
+- Revenue per customer shows an alarming decreasing trend over time  
+  - 2022-2024 cohorts are consistently performing worse than earlier cohorts  
   - NOTE: Although net revenue is increasing, this is likely due to a larger customer base, which is not reflective of customer value
 
 💡 **Business Insights**
@@ -61,7 +61,7 @@ Analysis of customer behavior, retention, and lifetime value for an e-commerce c
 
 **📈 Visualization:**
 
-<img src="images/3_customer_churn_cohort_year.png" alt="Customer Churn by Cohort Year" style="width: 50%; height: auto;">
+<img src="customer_churn_cohort_year.png" alt="Customer Churn by Cohort Year" style="width: 50%; height: auto;">
 
 📊 **Key Findings:**  
 - Cohort churn stabilizes at ~90% after 2-3 years, indicating a predictable long-term retention pattern.  
@@ -92,5 +92,5 @@ Analysis of customer behavior, retention, and lifetime value for an e-commerce c
 
 ## Technical Details
 - **Database:** PostgreSQL
-- **Analysis Tools:** PostgreSQL, DBeaver, PGadmin
+- **Analysis Tools:** PostgreSQL, DBeaver, PGAdmin
 - **Visualization:** ChatGPT
